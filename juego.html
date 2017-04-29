@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <title>Rompecabezas | Hora de Aventuras</title>
+  <link rel="stylesheet" href="css/juego.css">
+</head>
+
+<body>
+
+  <div id="dark-background"></div>
+
+  <div id="cartel-ganador">
+    <h1 id="felicitaciones">¡Felicitaciones Ganaste!</h1>
+    <h2 id="imagen-fin-jake">)</h2>
+    <button type="button" name="button" id="cerrar">x</button>
+    <button type="button" name="button" id="jugar">volver a jugar</button>
+  </div>
+
+  <div id="container">
+    <div class="col-40">
+      <div>
+        <img src="images/logo.png" alt="Logo de Hora de Aventuras" id="logo">
+      </div>
+
+      <div>
+        <h2 id="titulo-instruciones">Instrucciones</h2>
+      </div>
+
+      <ul>
+        <li><span>i</span>Mover las piezas utilizando las teclas de flecha.</li>
+        <li><span>i</span>Encontrar la posición correcta.</li>
+      </ul>
+
+      <div id="imagen-decoracion-menu">n</div>
+    </div>
+
+    <div class="col-60">
+      <div id="juego">
+        <div class="img-rompecabezas" id="img-1"></div>
+        <div class="img-rompecabezas" id="img-2"></div>
+        <div class="img-rompecabezas" id="img-3"></div>
+        <div class="img-rompecabezas" id="img-4"></div>
+        <div class="img-rompecabezas" id="img-5"></div>
+        <div class="img-rompecabezas" id="img-6"></div>
+        <div class="img-rompecabezas" id="img-7"></div>
+        <div class="img-rompecabezas" id="img-8"></div>
+        <div class="img-rompecabezas" id="img-9"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/juego.js"></script>
+
+</body>
+
+</html>
